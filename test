@@ -1,0 +1,11 @@
+git init
+git add test.tx
+git commit -m "V 1"
+git remote add origin https://github.com/FabienSIO2/TestGuit
+git push origin master
+git checkout -b develop
+git branch develop
+git checkout develop
+git checkout master
+git merge develop -Steeven
+git merge develop -Laura
